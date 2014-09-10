@@ -3,6 +3,7 @@
 <body>
 <h2>Hello World!</h2>
 <h3>${welcome}</h3>
+<a href="/assignment1_hckiella/hello/${username}">Hello</a>  
 
 <h5>Leave a message</h5>
  
@@ -13,7 +14,6 @@ Message content: <input type="text" name="content">
 <input type="submit" value="Submit">
 </form>
 <p><a href="/assignment1_hckiella/read">Get last message</a></p>
-
-<a href="/assignment1_hckiella/hello/${username}">Hello</a>      
+    
 </body>
 </html>
